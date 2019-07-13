@@ -8,7 +8,7 @@ module('Integration | Component | sample-component', function (hooks) {
 
   test('it renders', async function (assert) {
     await render(hbs`<SampleComponent />`);
-    assert.equal(this.element.querySelector('h1').textContent.trim(), 'Hello!!!');
+    assert.equal(this.element.querySelector('h1').textContent.trim(), 'Hello!');
     assert.equal(this.element.querySelector('p').textContent.trim(), 'I am a test!');
   });
 });
