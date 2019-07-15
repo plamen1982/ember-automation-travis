@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "dev": "ember-automation-travis-dev",
+    "prod": "ember-automation-travis-prod"
+  }
+}
